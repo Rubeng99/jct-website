@@ -1,0 +1,42 @@
+.pdf{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.pdf,
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:blanchedalmond;
+}
+
+
+/* class List */
+.manual-div{
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.myPDF{
+    width: 85%;
+    height: 975px;
+}
+/* id List */
+#header-box{
+    border: 3px solid black;
+    background-color: #795fbc;
+    margin-bottom: 10px;
+}
+#bottom-header-box{
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #6f44dc;
+    color: white;
+}
+#ref-style{
+    color:wheat;
+    font-size: 35px;
+    padding: 10px;
+}
