@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id ="quiz">
+        <h1>Work in Progress Quiz</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="submit">Submit</button>
+    </div>
+
+    <script src="quiz.js"></script>
+<!----------------------------->
+    <h1>Measurement Quiz</h1>
+
+    <div class="qBlock">
+
+<!--[Question 1]-->
+        <p id="qtext">1. What is 10'4'' + 5'8'' </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 15' 13'
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 5' 4'' 
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 16' 
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> 4' 8''
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+
+<!--[Question 2]-->
+
+    <div>
+        <p id="qtext">2. You are told you have to make a 3'5'' cut in a 1/4 piece of wood. You will cut... </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> Inside the mark you made
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> Outside the mark you made
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> On the mark you made
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+
+<!--[Question 1]-->
+    <div>
+        <p id="qtext">3. You were told to make a cut that was 8' 5.9375. 
+            You are then told to make anohter one half the size, what would be your new size?
+        </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 4' 2.96875"
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 4' 2.4739"
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 3' 4"
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> 4' 2.5"
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+
+<!--[   ]-->
+    <div>
+        <p id="qtext">4. Add 1/16 + 1/4 + 3/8
+        </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 0.615
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 0.6875
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 0.75
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> 0.625
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+
+    <div>
+        <p id="qtext">5. Which of the following fractions is the largest.
+        </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 2/3
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 5/8
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 
+           11/16
+
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> <sup>3</sup>&frasl;<sub>4</sub>
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+
+    <div>
+        <p id="qtext">6. What is the value of YZ?
+        </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 3
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 2
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 6
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> 5
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+
+    <div>
+        <p id="qtext">7. Solve 7<sup>1</sup>&frasl;<sub>7</sub> &divide; 3<sup>3</sup>&frasl;<sub>14</sub>
+        </p>
+
+        <form id="quizForm" role="form" name="quizForm" method="post">
+          
+        <div>
+        <label id="label1" class="radiocontainer"> 64/52
+            <input id="1" type="radio" name="quiz" onclick="clickRadio(this)" value="1">
+            <span class="checkmark">
+            </span>
+         </label>
+
+        <label id="label2" class="radiocontainer"> 1*5/8
+            <input id="2" type="radio" name="quiz" onclick="clickRadio(this)" value="2">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label3" class="radiocontainer"> 9
+            <input id="3" type="radio" name="quiz" onclick="clickRadio(this)" value="3">
+            <span class="checkmark"></span>
+        </label>
+
+        <label id="label4" class="radiocontainer"> 2*2/9
+            <input id="4" type="radio" name="quiz" onclick="clickRadio(this)" value="4">
+            <span class="checkmark"></span>
+        </label>
+
+        </div>
+            <button class="answerbutton w3-btn ws-green" type="submit"
+            onclick="clickNextButton(1)" Next></button>
+    </div>
+    </form>
+    </div>
+    
+    
+    
+</body>
+</html>
