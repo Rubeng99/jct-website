@@ -46,8 +46,8 @@ const quizData = [
     {
         question: "Solve: (7*1/7)/(3*3/14)",
         options: ["64/52", "(1*5/8)", "9", "(2*2/9)"],
-        answer: "2*(2/9)"
-    },
+        answer: "(2*2/9)"
+    }
     
 ];
 
