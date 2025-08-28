@@ -165,7 +165,9 @@ function setupCanvas(id) {
     update();
   }
 
+  //Resources: https://stackoverflow.com/questions/2735881/adding-images-to-an-html-document-with-javascript
   //Code from: https://snorre.io/blog/2024-07-19-javascript-canvas-confetti/
+  // https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2
 function showResult(){
     if(score == currentQuestion){
         quiz.innerHTML = `<h1>Congrats You Got a Perfect Score!</h1>
